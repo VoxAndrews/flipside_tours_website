@@ -15,6 +15,11 @@
     margin-bottom: 0px;
 }
 
+.tagline-header {
+    padding-top: 12%;
+    padding-bottom: 12%;
+}
+
 .btn {
     background-color: #EB6601;
 
