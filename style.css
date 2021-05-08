@@ -1,5 +1,9 @@
 /*------------------------------ Variables ------------------------------*/
 
+body {
+    min-width: 320px;
+}
+
 h1 {
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -42,7 +46,7 @@ a {
 }
 
 li {
-    padding-right: 3%;
+    padding-left: 5%;
     padding-top: 2%;
 }
 
@@ -71,7 +75,7 @@ li {
 }
 
 .navbar {
-    padding-top: 3%;
+    padding-top: 4%;
     
     margin-bottom: 0px;
     
@@ -107,6 +111,13 @@ li {
 }
 
 /*------------------------------ Header (Small) ------------------------------*/
+
+.smallheaderbg {
+    background: url(images/backgrounds/header-background.jpg);
+    background-size: cover;
+    
+    padding-bottom: 3%;
+}
 
 /*------------------------------ Index ------------------------------*/
 
