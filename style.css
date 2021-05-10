@@ -26,12 +26,23 @@ h2 {
     margin-bottom: 10px;
 }
 
+h3 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    
+    font-size: 2.25em;
+    
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
 p {
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     
-    font-size: 1.3em;
+    font-size: 1em;
     
     margin-bottom: 0px;
     
@@ -134,6 +145,13 @@ li {
 .index-content-one {
     margin-top: 70px;
     margin-bottom: 70px;
+}
+
+/*------------------------------ Blog ------------------------------*/
+
+.blog-section-one-bg {
+    background: url(images/backgrounds/blog/blog-section2-background.jpg);
+    background-size: cover;
 }
 
 /*------------------------------ Footer ------------------------------*/
