@@ -8,9 +8,9 @@ h1 {
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    
+
     font-size: 6em;
-    
+
     margin-top: 0px;
     margin-bottom: 10px;
 }
@@ -19,9 +19,9 @@ h2 {
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    
+
     font-size: 4em;
-    
+
     margin-top: 0px;
     margin-bottom: 10px;
 }
@@ -30,9 +30,9 @@ h3 {
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    
+
     font-size: 2.25em;
-    
+
     margin-top: 5px;
     margin-bottom: 0px;
 }
@@ -41,18 +41,18 @@ p {
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    
+
     font-size: 1em;
-    
+
     margin-bottom: 0px;
-    
+
     line-height: 180%;
 }
 
 a {
     color: white;
     text-decoration: none;
-    
+
     font-size: 1.3em;
 }
 
@@ -61,15 +61,19 @@ li {
     padding-top: 2%;
 }
 
+.content_width {
+    width: 92%;
+}
+
 .btn {
     background-color: #EB6601;
 
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     color: white;
-    
+
     font-size: 1.5em;
-    
+
     margin-top: 20px;
 }
 
@@ -77,19 +81,53 @@ li {
     margin: auto;
 }
 
+.remove-padding {
+    padding: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    p {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+
+        font-size: 0.9em;
+
+        margin-bottom: 0px;
+
+        line-height: 180%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    h1 {
+        text-align: center;
+
+        font-size: 3em;
+    }
+    
+    h3 {
+        font-size: 1.3em;
+    }
+
+    .content_width {
+        width: 95%;
+    }
+}
+
 /*------------------------------ Header (Large) ------------------------------*/
 
 .navbar-nav {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    width: 58%;
+    width: 61%;
 }
 
 .navbar {
     padding-top: 4%;
-    
+
     margin-bottom: 0px;
-    
+
     margin: auto;
 }
 
@@ -105,8 +143,7 @@ li {
     padding-top: 3%;
 }
 
-@media (min-width: 768px)
-.navbar-nav>li {
+@media (min-width: 768px) .navbar-nav > li {
     float: left;
     padding-left: 10px;
 }
@@ -126,9 +163,27 @@ li {
 .smallheaderbg {
     background: url(images/backgrounds/header-background.jpg);
     background-size: cover;
-    
+
     padding-bottom: 3%;
 }
+
+@media (min-width: 768px){
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    
+    .navbar-header {
+        float:none;
+    }
+} /*Code from https://jsfiddle.net/0pmy8usr/*/
 
 /*------------------------------ Index ------------------------------*/
 
@@ -154,11 +209,29 @@ li {
     background-size: cover;
 }
 
+.p-subtitle {
+    font-size: 1.50em;
+}
+
+.section-padding-top {
+    padding-top: 45px;
+}
+
+.section-padding-bottom {
+    padding-bottom: 45px;
+}
+
+@media screen and (max-width: 320px) {
+    .blog-profile-img {
+        height: 48px;
+    }
+}
+
 /*------------------------------ Footer ------------------------------*/
 .footerbg {
     background: url(images/backgrounds/footer-background.jpg);
     background-size: cover;
-    
+
     padding-top: 60px;
     padding-bottom: 60px;
 }

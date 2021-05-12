@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Flipside Tours</title>
+    <title>Flipside Tours - Blog</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <!-- Google Fonts (Roboto & Archivo Black) -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -21,8 +23,8 @@
 
 <body>
     <header class="container-fluid smallheaderbg">
-        <nav class="navbar">
-            <div class="container-fluid">
+        <nav class="navbar" style="padding-left: 60px;padding-right: 60px;">
+            <div class="container-fluid remove-padding">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                         <span class="icon-bar"></span>
@@ -47,26 +49,72 @@
     </header>
 
     <section class="container-fluid blog-section-one-bg">
-        <div class="container">
-            <h1><u style="text-decoration-thickness: 1px;"> News <span style="font-family: 'Archivo Black', sans-serif;">Blog</span> </u></h1>
-            <div class="row">
-                <div class="col-md-4">
+        <div class="container content_width">
+            <h1 class="section-padding-top"><u style="text-decoration-thickness: 1px;"> News <span style="font-family: 'Archivo Black', sans-serif;">Blog</span> </u></h1>
+            <div class="row section-padding-top">
+                <div class="col-sm-4" style="padding-left: 0px; padding-right: 0px;">
                     <img src="images/content/blog/blog-img-1.jpg" alt="Photo of the Founder of Flipside">
                 </div>
 
-                <div class="col-md-8">
+                <div class="col-sm-8">
                     <div class="row">
-                        <div class="col-md-1" style="padding-right: 0px;">
-                            <img src="images/content/blog/blog-profile-img-1.png" alt="Photo of the Founder of Flipside">
+                        <div class="col-sm-1" style="padding-right: 0px; padding-left: 0px;">
+                            <img src="images/content/blog/blog-profile-img-1.png" class="blog-profile-img" alt="Photo of the Founder of Flipside">
                         </div>
                         
-                        <div class="col-md-11">
+                        <div class="col-sm-11" style="padding-left: 30px;">
                             <h3> The Founder </h3>
-                            <p style="font-size: 1.50em;"> Josh - 22/05/2021 </p>
+                            <p class="p-subtitle"> Josh - 22/05/2021 </p>
                         </div>
                     </div>
                     
-                    <p> In 2010 Founder Jane Bree created Flipside Tours with a goal of bridging the gap between tourists and Fremantle with a simple walking tour. Today, Flipside Tours has grown into is a group of avid, funky artists and creatives who love Fremantle. <br> <br> Since our humble beginnings we’ve been leading tourists on tours of arty neighbourhoods, street art, food and ghosts throughout Fremantle... </p>
+                    <p style="line-height: 140%;"> In 2010 Founder Jane Bree created Flipside Tours with a goal of bridging the gap between tourists and Fremantle with a simple walking tour. Today, Flipside Tours has grown into is a group of avid, funky artists and creatives who love Fremantle. <br> <br> Since our humble beginnings we’ve been leading tourists on tours of arty neighbourhoods, street art, food and ghosts throughout Fremantle... </p>
+                    
+                    <button type="button" class="btn">Read More...</button>
+                </div>
+            </div>
+            
+            <div class="row section-padding-top">
+                <div class="col-sm-4" style="padding-left: 0px; padding-right: 0px;">
+                    <img src="images/content/blog/blog-img-2.jpg" alt="Photo of the Founder of Flipside">
+                </div>
+
+                <div class="col-sm-8">
+                    <div class="row">
+                        <div class="col-sm-1" style="padding-right: 0px; padding-left: 0px;">
+                            <img src="images/content/blog/blog-profile-img-2.png" class="blog-profile-img" alt="Photo of the Founder of Flipside">
+                        </div>
+                        
+                        <div class="col-sm-11" style="padding-left: 30px;">
+                            <h3> Flipside Growth </h3>
+                            <p class="p-subtitle"> Jane Bree - 12/05/2021 </p>
+                        </div>
+                    </div>
+                    
+                    <p style="line-height: 140%;"> Flipside has recently grown enough that we need to have a website. Our customers have also complained that they cannot find us easily online. We have a lot of competitors and need to stand out amongst the crowd with a strong identity. <br> <br> Customers don’t know enough about our service and our online touchpoints need to be more engaging in order to facilitate better... </p>
+                    
+                    <button type="button" class="btn">Read More...</button>
+                </div>
+            </div>
+            
+            <div class="row section-padding-top section-padding-bottom">
+                <div class="col-sm-4" style="padding-left: 0px; padding-right: 0px;">
+                    <img src="images/content/blog/blog-img-3.jpg" alt="Photo of the Founder of Flipside">
+                </div>
+
+                <div class="col-sm-8">
+                    <div class="row">
+                        <div class="col-xs-1" style="padding-right: 0px; padding-left: 0px;">
+                            <img src="images/content/blog/blog-profile-img-2.png" class="blog-profile-img" alt="Photo of the Founder of Flipside">
+                        </div>
+                        
+                        <div class="col-xs-11" style="padding-left: 30px;">
+                            <h3> Evening Food Tours </h3>
+                            <p class="p-subtitle"> Jane Bree - 27/04/2021 </p>
+                        </div>
+                    </div>
+                    
+                    <p style="line-height: 140%;"> Flipside has recently grown enough that we need to have a website. Our customers have also complained that they cannot find us easily online. We have a lot of competitors and need to stand out amongst the crowd with a strong identity. <br> <br> Customers don’t know enough about our service and our online touchpoints need to be more engaging in order to facilitate better... </p>
                     
                     <button type="button" class="btn">Read More...</button>
                 </div>
@@ -76,22 +124,22 @@
 
     <footer class="footerbg container-fluid">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
+            <div class="row content_width" style="margin-bottom: 60px;">
+                <div class="col-sm-6" style="padding-left: 0px;">
                     <div class="row">
-                        <div class="col-md-2">
+                        <div class="col-md-2" style="padding-left: 0px;">
                             <p><span style="font-family: 'Archivo Black', sans-serif;">Call</span></p>
                             <p><span style="font-family: 'Archivo Black', sans-serif;">Email</span></p>
                         </div>
                         <!--Column Medium 2-->
 
-                        <div class="col-md-6">
+                        <div class="col-sm-6">
                             <p>+61 08 6939 6100</p>
                             <p>info@flipside.com</p>
                         </div>
                         <!--Column Medium 6-->
 
-                        <div class="col-md-4">
+                        <div class="col-sm-4">
                         </div>
                         <!--Column Medium 4 (Empty)-->
 
@@ -101,16 +149,16 @@
                 </div>
                 <!--Column Medium 6-->
 
-                <div class="col-md-6">
+                <div class="col-sm-6" style="padding-right: 0px;">
                     <div class="row">
-                        <div class="col-md-6" style="text-align: right;">
+                        <div class="col-sm-9" style="text-align: right;">
                             <p>Home</p>
                             <p>Tours</p>
                             <p>News</p>
                         </div>
                         <!--Column Medium 6-->
 
-                        <div class="col-md-6" style="text-align: right;">
+                        <div class="col-sm-3" style="text-align: right; padding-right: 0px;">
                             <p>About Us</p>
                             <p>Contact Us</p>
                         </div>
@@ -122,14 +170,14 @@
             </div>
             <!--Row-->
 
-            <section class="container">
-                <div class="row">
-                    <div class="col-md-6">
+            <section class="container" style="padding-left: 0px;">
+                <div class="row content_width">
+                    <div class="col-sm-6" style="padding-left: 0px;">
                         <a href="#"><img alt="Flipside Tours Logo" src="graphics/logo/logotype-img.svg"></a>
                     </div>
                     <!--Column Medium 6-->
 
-                    <div class="col-md-6" style="text-align: right;">
+                    <div class="col-sm-6" style="text-align: right;">
                         <p>Flipside Tours | Copyright 2021 | All Rights Reserved</p>
                     </div>
                     <!--Column Medium 6-->
