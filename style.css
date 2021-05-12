@@ -167,7 +167,7 @@ li {
     padding-bottom: 3%;
 }
 
-@media (min-width: 768px){
+@media (max-width: 768px){
     .navbar-collapse.collapse {
         display: none !important;
     }
@@ -183,7 +183,7 @@ li {
     .navbar-header {
         float:none;
     }
-} /*Code from https://jsfiddle.net/0pmy8usr/*/
+} /*Code for NavBar Collapse from: https://jsfiddle.net/0pmy8usr/*/
 
 /*------------------------------ Index ------------------------------*/
 
@@ -213,7 +213,7 @@ li {
     font-size: 1.50em;
 }
 
-.section-padding-top {
+. {
     padding-top: 45px;
 }
 
