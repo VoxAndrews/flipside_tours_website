@@ -61,6 +61,12 @@ li {
     padding-top: 2%;
 }
 
+.tab {
+    display: inline-block;
+
+    margin-left: 40px;
+}
+
 .content_width {
     width: 92%;
 }
@@ -86,6 +92,17 @@ li {
 }
 
 @media screen and (max-width: 768px) {
+    h1 {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+
+        font-size: 4em;
+
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
     p {
         color: white;
         font-family: 'Roboto', sans-serif;
@@ -97,6 +114,18 @@ li {
 
         line-height: 180%;
     }
+
+    .btn {
+        background-color: #EB6601;
+
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        color: white;
+
+        font-size: 1.3em;
+
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -105,13 +134,13 @@ li {
 
         font-size: 3em;
     }
-    
+
     h3 {
         font-size: 1.3em;
     }
 
     .content_width {
-        width: 95%;
+        width: 100%;
     }
 }
 
@@ -125,6 +154,8 @@ li {
 
 .navbar {
     padding-top: 4%;
+    padding-left: 60px;
+    padding-right: 60px;
 
     margin-bottom: 0px;
 
@@ -167,23 +198,43 @@ li {
     padding-bottom: 3%;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .navbar-collapse.collapse {
         display: none !important;
     }
-    
+
     .navbar-collapse.collapse.in {
         display: block !important;
     }
-    
-    .navbar-header .collapse, .navbar-toggle {
-        display:block !important;
+
+    .navbar-header .collapse,
+    .navbar-toggle {
+        display: block !important;
     }
-    
+
     .navbar-header {
-        float:none;
+        float: none;
     }
-} /*Code for NavBar Collapse from: https://jsfiddle.net/0pmy8usr/*/
+}
+
+/*Code for NavBar Collapse from: https://jsfiddle.net/0pmy8usr/*/
+
+@media screen and (max-width: 320px) {
+    .navbar {
+        padding-top: 4%;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        margin-bottom: 0px;
+
+        margin: auto;
+    }
+
+    .navbar-toggle {
+        padding-top: 7%;
+        padding-right: 0px
+    }
+}
 
 /*------------------------------ Index ------------------------------*/
 
@@ -207,13 +258,16 @@ li {
 .blog-section-one-bg {
     background: url(images/backgrounds/blog/blog-section2-background.jpg);
     background-size: cover;
+
+    padding-bottom: 45px;
+    padding-top: 45px;
 }
 
 .p-subtitle {
     font-size: 1.50em;
 }
 
-. {
+.section-padding-top {
     padding-top: 45px;
 }
 
@@ -234,4 +288,28 @@ li {
 
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.footer-btns {
+    text-align: right;
+}
+
+.footer-legal {
+    text-align: right;
+    
+    padding-top: 0px;
+    
+    
+}
+
+@media screen and (max-width: 767px) {
+    .footer-btns {
+        text-align: left;
+    }
+
+    .footer-legal {
+        text-align: center;
+        
+        padding-top: 90px;
+    }
 }
