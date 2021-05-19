@@ -291,6 +291,42 @@ li {
     margin-bottom: 70px;
 }
 
+.index-tour-left-one {
+    margin-left: 350px;
+    margin-right: -230px;
+
+    padding-top: 150px;
+
+    z-index: 1;
+}
+
+.index-tour-right-one {
+    margin-left: -250px;
+    
+    padding-left: 150px;
+    padding-top: 270px;
+    
+    text-align: right;
+}
+
+.index-tour-left-two {
+    margin-left: 120px;
+    margin-right: -230px;
+
+    padding-top: 150px;
+
+    z-index: 1;
+}
+
+.index-tour-right-two {
+    margin-left: -250px;
+    
+    padding-left: 140px;
+    padding-top: 270px;
+    
+    text-align: right;
+}
+
 /*------------------------------ Blog ------------------------------*/
 
 .blog-section-one-bg {
@@ -361,6 +397,52 @@ li {
     .p-subtitle {
         font-size: 1em;
     }
+}
+
+/*------------------------------ Services ------------------------------*/
+
+.services-section-one-bg {
+    background: url(images/backgrounds/services/services-section2-background.jpg);
+    background-size: cover;
+
+    padding-bottom: 45px;
+    padding-top: 45px;
+}
+
+.services-tour-left-one {
+    margin-left: 350px;
+    margin-right: -230px;
+
+    padding-top: 150px;
+
+    z-index: 1;
+}
+
+.services-tour-right-one {
+    margin-left: -250px;
+    
+    padding-left: 150px;
+    padding-top: 270px;
+    
+    text-align: right;
+}
+
+.services-tour-left-two {
+    margin-left: 120px;
+    margin-right: -230px;
+
+    padding-top: 150px;
+
+    z-index: 1;
+}
+
+.services-tour-right-two {
+    margin-left: -250px;
+    
+    padding-left: 140px;
+    padding-top: 270px;
+    
+    text-align: right;
 }
 
 /*------------------------------ Footer ------------------------------*/
