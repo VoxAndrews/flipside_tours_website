@@ -100,20 +100,16 @@ li {
         font-size: 4em;
     }
 
+    h2 {
+        font-size: 2.6em;
+    }
+
     h3 {
         font-size: 1.8em;
     }
 
     p {
-        color: white;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-
-        font-size: 0.8em;
-
-        margin-bottom: 0px;
-
-        line-height: 180%;
+        font-size: 1em;
     }
 
     .btn {
@@ -133,11 +129,19 @@ li {
     h1 {
         text-align: center;
 
-        font-size: 3em;
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 1.5em;
     }
 
     h3 {
         font-size: 1.5em;
+    }
+
+    p {
+        font-size: 0.8em;
     }
 
     .content_width {
@@ -302,10 +306,10 @@ li {
 
 .index-tour-right-one {
     margin-left: -250px;
-    
+
     padding-left: 150px;
     padding-top: 270px;
-    
+
     text-align: right;
 }
 
@@ -320,11 +324,60 @@ li {
 
 .index-tour-right-two {
     margin-left: -250px;
-    
+
     padding-left: 140px;
     padding-top: 270px;
-    
+
     text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+    .index-tour-img {
+        width: 140%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .index-tour-img {
+        width: 100%;
+    }
+
+    .index-tour-left-one {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .index-tour-left-two {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .index-tour-right-one {
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    .index-tour-right-two {
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    .index-content-one {
+        text-align: center;
+    }
+
+    .index-blog-img {
+        width: 100%;
+        padding-top: 20px;
+    }
 }
 
 /*------------------------------ Blog ------------------------------*/
@@ -420,10 +473,10 @@ li {
 
 .services-tour-right-one {
     margin-left: -250px;
-    
+
     padding-left: 150px;
     padding-top: 270px;
-    
+
     text-align: right;
 }
 
@@ -438,11 +491,50 @@ li {
 
 .services-tour-right-two {
     margin-left: -250px;
-    
+
     padding-left: 140px;
     padding-top: 270px;
-    
+
     text-align: right;
+}
+
+@media screen and (max-width: 320px) {
+    .services-tour-left-one {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .services-tour-left-two {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .services-tour-right-one {
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    .services-tour-right-two {
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    .services-content-one {
+        text-align: center;
+    }
+    
+    .services-img {
+        width: 100%;
+        padding-top: 20px;
+    }
 }
 
 /*------------------------------ Footer ------------------------------*/
