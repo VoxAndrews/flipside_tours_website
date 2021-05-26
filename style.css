@@ -52,8 +52,6 @@ p {
 a {
     color: white;
     text-decoration: none;
-
-    font-size: 1.3em;
 }
 
 li {
@@ -296,11 +294,9 @@ li {
 }
 
 .index-tour-left-one {
-    margin-left: 350px;
-    margin-right: -230px;
-
+    margin-left: 380px;
+    margin-right: -400px;
     padding-top: 150px;
-
     z-index: 1;
 }
 
@@ -315,10 +311,8 @@ li {
 
 .index-tour-left-two {
     margin-left: 120px;
-    margin-right: -230px;
-
+    margin-right: -320px;
     padding-top: 150px;
-
     z-index: 1;
 }
 
@@ -333,11 +327,35 @@ li {
 
 @media screen and (max-width: 768px) {
     .index-tour-img {
-        width: 140%;
+        width: 90%;
+    }
+
+    .index-blog-img {
+        width: 100%;
+    }
+
+    .index-tour-left-one {
+        margin-left: 230px;
+        margin-right: -230px;
+        padding-top: 100px;
+        z-index: 1;
+    }
+
+    .index-tour-left-two {
+        margin-left: 50px;
+        margin-right: -180px;
+        padding-top: 100px;
+        z-index: 1;
+    }
+
+    .tagline-header {
+        width: 60%;
+
+        text-align: center;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .index-tour-img {
         width: 100%;
     }
@@ -372,11 +390,18 @@ li {
 
     .index-content-one {
         text-align: center;
+
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 
     .index-blog-img {
         width: 100%;
         padding-top: 20px;
+    }
+
+    .tagline-header {
+        width: 80%;
     }
 }
 
@@ -498,7 +523,37 @@ li {
     text-align: right;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
+    .services-tour-left-one {
+        margin-left: 150px;
+        margin-right: -130px;
+        padding-top: 150px;
+        z-index: 1;
+    }
+
+    .services-tour-right-one {
+        margin-left: -50px;
+        padding-left: 0px;
+        padding-top: 270px;
+        text-align: right;
+    }
+
+    .services-tour-left-two {
+        margin-left: 50px;
+        margin-right: -80px;
+        padding-top: 150px;
+        z-index: 1;
+    }
+
+    .services-tour-right-two {
+        margin-left: -60px;
+        padding-left: 0px;
+        padding-top: 270px;
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 767px) {
     .services-tour-left-one {
         margin-left: 0px;
         margin-right: 0px;
@@ -530,7 +585,7 @@ li {
     .services-content-one {
         text-align: center;
     }
-    
+
     .services-img {
         width: 100%;
         padding-top: 20px;
@@ -567,5 +622,12 @@ li {
         text-align: center;
 
         padding-top: 90px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footerbg {
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 }
