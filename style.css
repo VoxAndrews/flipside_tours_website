@@ -93,21 +93,37 @@ li {
     padding: 0px;
 }
 
+@media screen and (max-width: 1060px) {
+    h1 {
+        font-size: 5em;
+    }
+}
+
+@media screen and (max-width: 888px) {
+    h1 {
+        font-size: 4.7em;
+    }
+}
+
+@media screen and (max-width: 837px) {
+    h1 {
+        font-size: 4.3em;
+    }
+}
+
 @media screen and (max-width: 768px) {
     h1 {
         font-size: 4em;
+        
+        text-align: center;
     }
 
     h2 {
-        font-size: 2.6em;
+        font-size: 2.2em;
     }
 
     h3 {
-        font-size: 1.8em;
-    }
-
-    p {
-        font-size: 1em;
+        font-size: 1.6em;
     }
 
     .btn {
@@ -121,33 +137,31 @@ li {
 
         margin-top: 15px;
     }
-}
-
-@media screen and (max-width: 767px) {
-    h1 {
-        text-align: center;
-
-        font-size: 2.5em;
-    }
-
-    h2 {
-        font-size: 1.5em;
-    }
-
-    h3 {
-        font-size: 1.5em;
-    }
-
-    p {
-        font-size: 0.8em;
-    }
-
+    
     .content_width {
         width: 100%;
     }
 
     .content-align {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 602px) {
+    h1 {
+        font-size: 3.3em;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    h3 {
+        font-size: 1.3em;
+    }
+    
+    p {
+        font-size: 0.8em;
     }
 }
 
@@ -327,7 +341,7 @@ li {
 
 @media screen and (max-width: 768px) {
     .index-tour-img {
-        width: 90%;
+        width: 70%;
     }
 
     .index-blog-img {
@@ -347,50 +361,8 @@ li {
         padding-top: 100px;
         z-index: 1;
     }
-
-    .tagline-header {
-        width: 60%;
-
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .index-tour-img {
-        width: 100%;
-    }
-
-    .index-tour-left-one {
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-top: 20px;
-        text-align: center;
-    }
-
-    .index-tour-left-two {
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-top: 20px;
-        text-align: center;
-    }
-
-    .index-tour-right-one {
-        margin-left: 0px;
-        padding-left: 0px;
-        padding-top: 0px;
-        text-align: center;
-    }
-
-    .index-tour-right-two {
-        margin-left: 0px;
-        padding-left: 0px;
-        padding-top: 0px;
-        text-align: center;
-    }
-
+    
     .index-content-one {
-        text-align: center;
-
         margin-top: 40px;
         margin-bottom: 40px;
     }
@@ -401,7 +373,55 @@ li {
     }
 
     .tagline-header {
+        width: 60%;
+
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .index-tour-left-one {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 0px;
+        
+        text-align: center;
+    }
+
+    .index-tour-left-two {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 0px;
+        
+        text-align: center;
+    }
+
+    .index-content-one {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 602px) {
+    .tagline-header {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 502px) {
+    .tagline-header {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 434px) {
+    .tagline-header {
         width: 80%;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    .tagline-header {
+        width: 100%;
     }
 }
 
