@@ -103,6 +103,10 @@ li {
     h1 {
         font-size: 5em;
     }
+    
+    h3 {
+        font-size: 1.72em;
+    }
 }
 
 @media screen and (max-width: 984px) {
@@ -115,7 +119,7 @@ li {
     h1 {
         font-size: 4.7em;
     }
-    
+
     h2 {
         font-size: 2.6em;
     }
@@ -130,7 +134,7 @@ li {
 @media screen and (max-width: 768px) {
     h1 {
         font-size: 4em;
-        
+
         text-align: center;
     }
 
@@ -153,7 +157,7 @@ li {
 
         margin-top: 15px;
     }
-    
+
     .content_width {
         width: 100%;
     }
@@ -165,17 +169,17 @@ li {
 
 @media screen and (max-width: 602px) {
     h1 {
-        font-size: 3.3em;
+        font-size: 2.8em;
     }
-    
+
     h2 {
         font-size: 1.5em;
     }
-    
+
     h3 {
         font-size: 1.3em;
     }
-    
+
     p {
         font-size: 0.8em;
     }
@@ -375,7 +379,7 @@ li {
         padding-top: 100px;
         z-index: 1;
     }
-    
+
     .index-content-one {
         margin-top: 40px;
         margin-bottom: 40px;
@@ -385,7 +389,7 @@ li {
         width: 100%;
         padding-top: 20px;
     }
-    
+
     .index-tour-img {
         width: 100%;
     }
@@ -402,7 +406,7 @@ li {
         margin-left: 0px;
         margin-right: 0px;
         padding-top: 0px;
-        
+
         text-align: center;
     }
 
@@ -410,18 +414,18 @@ li {
         margin-left: 0px;
         margin-right: 0px;
         padding-top: 0px;
-        
+
         text-align: center;
     }
 
     .index-content-one {
         text-align: center;
     }
-    
+
     .index-section-one-bg {
         text-align: center;
     }
-    
+
     .index-tour-img {
         width: 60%;
     }
@@ -509,7 +513,15 @@ li {
 
 @media screen and (max-width: 767px) {
     .blog-content-img {
+        width: 70%;
+    }
+    
+    .blog-profile-img {
         width: 100%;
+    }
+    
+    .blog-section-one-bg {
+        text-align: center;
     }
 
     .blog-content-padding {
@@ -520,6 +532,12 @@ li {
 
     .p-subtitle {
         font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+     .blog-profile-img {
+        width: 220%;
     }
 }
 
@@ -567,6 +585,89 @@ li {
     padding-top: 270px;
 
     text-align: right;
+}
+
+@media screen and (max-width: 1000px) {
+    .services-tour-right-one {
+        margin-left: -230px;
+        padding-left: 100px;
+        padding-top: 270px;
+        text-align: right;
+    }
+
+    .services-tour-left-one {
+        margin-left: 350px;
+        margin-right: -200px;
+        padding-top: 150px;
+        z-index: 1;
+    }
+
+    .services-tour-right-two {
+        margin-left: -220px;
+        padding-left: 90px;
+        padding-top: 270px;
+        text-align: right;
+    }
+
+    .services-tour-left-two {
+        margin-left: 100px;
+        margin-right: -150px;
+        padding-top: 150px;
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .services-tour-left-one {
+        margin-left: 230px;
+        margin-right: -130px;
+        padding-top: 150px;
+        z-index: 1;
+    }
+
+    .services-tour-right-one {
+        margin-left: -160px;
+        padding-left: 70px;
+        padding-top: 270px;
+        text-align: right;
+    }
+
+    .services-tour-right-two {
+        margin-left: -160px;
+        padding-left: 60px;
+        padding-top: 270px;
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .services-tour-left-one {
+        margin-left: 180px;
+        margin-right: -130px;
+        padding-top: 150px;
+        z-index: 1;
+    }
+
+    .services-tour-right-one {
+        margin-left: -100px;
+        padding-left: 30px;
+        padding-top: 270px;
+        text-align: right;
+    }
+
+    .services-tour-left-two {
+        margin-left: 60px;
+        margin-right: -110px;
+        padding-top: 150px;
+        z-index: 1;
+    }
+
+    .services-tour-right-two {
+        margin-left: -100px;
+        padding-left: 20px;
+        padding-top: 270px;
+        text-align: right;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -628,13 +729,13 @@ li {
         text-align: center;
     }
 
-    .services-content-one {
-        text-align: center;
+    .services-img {
+        width: 60%;
+        padding-top: 20px;
     }
 
-    .services-img {
-        width: 100%;
-        padding-top: 20px;
+    .services-section-one-bg {
+        text-align: center;
     }
 }
 
