@@ -38,12 +38,12 @@
 
     <!-- Stylesheet -->
     <link href="style.css" rel="stylesheet">
-
-    <?php wp_head(); ?> <!—very important that this is added-->
+    
+<?php wp_head(); ?> <!—very important that this is added-->
 </head>
 
 <body>
-    <header class="container-fluid indexheaderbg">
+    <header class="container-fluid smallheaderbg">
         <nav class="navbar content-width">
             <div class="container-fluid remove-padding">
                 <div class="navbar-header">
@@ -69,24 +69,4 @@
                 </div>
             </div>
         </nav>
-
-        <div class="container remove-padding content-width">
-            <div class="row tagline-header content-align">
-                <div class="col-md-6 remove-padding">
-                    <h1> Fremantle <span style="font-family: 'Archivo Black', sans-serif;">After Dark</span> </h1>
-                    <!--Main Tag Line-->
-
-                    <p>Share in the fun of the local Fremantle Culture, and discover new and exciting experiences through our tours!</p>
-
-                    <button type="button" class="btn">View Now</button>
-                </div>
-                <!--Column Medium 6-->
-
-                <div class="col-md-6">
-
-                </div>
-                <!--Column Medium 6 (Empty)-->
-            </div>
-            <!--Row-->
-        </div>
     </header>
