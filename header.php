@@ -43,7 +43,7 @@
 </head>
 
 <body>
-    <header class="container-fluid indexheaderbg">
+    <header class="container-fluid indexheaderbg"<?php if ( get_field(' headerlargebackgroundimage ') ) { echo 'style="background: url(' . get_field(' headerlargebackgroundimage ') . ')"'; } ?>>
         <nav class="navbar content-width">
             <div class="container-fluid remove-padding">
                 <div class="navbar-header">
@@ -73,12 +73,12 @@
         <div class="container remove-padding content-width">
             <div class="row tagline-header content-align">
                 <div class="col-md-6 remove-padding">
-                    <h1> Fremantle <span style="font-family: 'Archivo Black', sans-serif;">After Dark</span> </h1>
+                    <h1><?php the_field('headerlargemaintagline'); ?></h1>
                     <!--Main Tag Line-->
 
-                    <p>Share in the fun of the local Fremantle Culture, and discover new and exciting experiences through our tours!</p>
+                    <p><?php the_field('headerlargetext'); ?></p>
 
-                    <button type="button" class="btn">View Now</button>
+                    <a href="<?php the_field('headerlargebutton'); ?>"><button type="button" class="btn">View Now</button></a>
                 </div>
                 <!--Column Medium 6-->
 
