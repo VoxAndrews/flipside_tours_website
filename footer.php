@@ -18,15 +18,15 @@
                 <div class="col-sm-3 remove-padding footer-btns">
                     <div class="row" style="padding-top: 0px;">
                         <div class="col-xs-6" style="padding-left: 0px;">
-                            <p><a href="index.html">Home</a></p>
-                            <p><a href="services.html">Tours</a></p>
-                            <p><a href="blog.html">News</a></p>
+                            <p><a href="http://206.189.45.97/~mesh22/sub4/">Home</a></p>
+                            <p><a href="http://206.189.45.97/~mesh22/sub4/tours-page/">Tours</a></p>
+                            <p><a href="http://206.189.45.97/~mesh22/sub4/blog-page/">News</a></p>
                         </div>
                         <!--Column Medium 6-->
 
                         <div class="col-xs-6 remove-padding">
-                            <p><a href="#">About Us</a></p>
-                            <p><a href="#">Contact Us</a></p>
+                            <p><a href="http://206.189.45.97/~mesh22/sub4/about-us/">About Us</a></p>
+                            <p><a href="http://206.189.45.97/~mesh22/sub4/contact-us/">Contact Us</a></p>
                         </div>
                         <!--Column Medium 6-->
                     </div>
@@ -39,7 +39,7 @@
             <section class="container remove-padding content-width">
                 <div class="row">
                     <div class="col-xs-1" style="padding-left: 0px;">
-                        <a href="index.html"><img alt="Flipside Tours Logo" src="http://206.189.45.97/~mesh22/sub4/wp-content/themes/flipside_tours_website/graphics/logo/logotype-img.svg"></a>
+                        <a href="http://206.189.45.97/~mesh22/sub4/"><img alt="Flipside Tours Logo" src="http://206.189.45.97/~mesh22/sub4/wp-content/themes/flipside_tours_website/graphics/logo/logotype-img.svg"></a>
                     </div>
                     <!--Column Medium 6-->
 

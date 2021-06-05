@@ -5,42 +5,83 @@
 ?>
 
 <?php include (TEMPLATEPATH . '/small_header.php');  /* Tells WordPress to include the smaller header header.php */ ?>
-<div class="container-fluid maincontainer">
-    <div class="container">
-        <div class="row">
-            <section class="col-sm-7 maintext">
-                <article class="excerpts">
-                    <!---->
-                    <!--we can reuse the css on the old article to restyle the new dynamic posts-->
+<section class="container-fluid blog-section-one-bg">
+    <div class="container content-width remove-padding">
+        <h1><u style="text-decoration-thickness: 1px;"> <?php the_field('newstitle'); ?> </u></h1>
+        <div class="row section-padding-top">
+            <?php $post_id = 441;$queried_post = get_post($post_id);?>
+            
+            <div class="col-sm-4 remove-padding">
+                <?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'blog-content-img')); ?>
+            </div>
 
-                    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
-                    <div class="post single-page">
-                        <h3 class="posttitle" id="post-<?php the_ID(); ?>"><?php the_title(); ?></h3>
-
-                        <div class="postcontent">
-                            <?php /*?><?php the_post_thumbnail(array(150,150), array ('class' => 'alignright')); ?><?php */?>
-                            <?php the_content(); ?>
-                            <?php wp_link_pages(array('before' => '<p><strong>Pages:</strong>', 'after' => '</p>')); ?>
-                        </div>
-                        <!--postcontet-->
-
+            <div class="col-sm-8 remove-padding blog-content-padding">
+                <div class="row">
+                    <div class="col-xs-1 remove-padding">
+                        <img src="<?php the_field('newsprofileimageone'); ?>" class="blog-profile-img" alt="Jane Bree - Profile Image">
                     </div>
-                    <!--post class-->
 
-                    <?php endwhile; ?>
-
-                    <?php else: ?>
-                    <div class="post">
-                        <p>Sorry, no posts found.</p>
+                    <div class="col-xs-11" style="text-align: left; padding-left: 40px;">
+                        <h3><?php echo $queried_post->post_title; ?></h3>
+                        <p class="p-subtitle"> <?php the_field('newspostauthorone'); ?> - <?php the_field('newspostdateone'); ?> </p>
                     </div>
-                    <!--post-->
-                    <?php endif; ?>
-                </article>
-                <!---->
-            </section>
+                </div>
 
+                <p style="line-height: 140%;"><?php echo $queried_post->post_excerpt; ?></p>
+
+                <a href="<?php the_field('newspostlinkone'); ?>"><button type="button" class="btn">Read More</button></a>
+            </div>
+        </div>
+
+        <div class="row section-padding-top">
+            <?php $post_id = 457;$queried_post = get_post($post_id);?>
+            
+            <div class="col-sm-4 remove-padding">
+                <?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'blog-content-img')); ?>
+            </div>
+
+            <div class="col-sm-8 remove-padding blog-content-padding">
+                <div class="row">
+                    <div class="col-xs-1 remove-padding">
+                        <img src="<?php the_field('newsprofileimagetwo'); ?>" class="blog-profile-img" alt="Jane Bree - Profile Image">
+                    </div>
+
+                    <div class="col-xs-11" style="text-align: left; padding-left: 40px;">
+                        <h3><?php echo $queried_post->post_title; ?></h3>
+                        <p class="p-subtitle"> <?php the_field('newspostauthortwo'); ?> - <?php the_field('newspostdatetwo'); ?> </p>
+                    </div>
+                </div>
+
+                <p style="line-height: 140%;"><?php echo $queried_post->post_excerpt; ?></p>
+
+                <a href="<?php the_field('newspostlinktwo'); ?>"><button type="button" class="btn">Read More</button></a>
+            </div>
+        </div>
+
+        <div class="row section-padding-top">
+            <?php $post_id = 462;$queried_post = get_post($post_id);?>
+            
+            <div class="col-sm-4 remove-padding">
+                <?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'blog-content-img')); ?>
+            </div>
+
+            <div class="col-sm-8 remove-padding blog-content-padding">
+                <div class="row">
+                    <div class="col-xs-1 remove-padding">
+                        <img src="<?php the_field('newsprofileimagethree'); ?>" class="blog-profile-img" alt="Jane Bree - Profile Image">
+                    </div>
+
+                    <div class="col-xs-11" style="text-align: left; padding-left: 40px;">
+                        <h3><?php echo $queried_post->post_title; ?></h3>
+                        <p class="p-subtitle"> <?php the_field('newspostauthorthree'); ?> - <?php the_field('newspostdatethree'); ?> </p>
+                    </div>
+                </div>
+
+                <p style="line-height: 140%;"><?php echo $queried_post->post_excerpt; ?></p>
+
+                <a href="<?php the_field('newspostlinkthree'); ?>"><button type="button" class="btn">Read More</button></a>
+            </div>
         </div>
     </div>
-</div>
+</section>
 <?php get_footer(); ?>

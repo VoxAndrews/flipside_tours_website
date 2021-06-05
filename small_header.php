@@ -53,7 +53,7 @@
                         <span class="icon-bar"></span>
                     </button>
 
-                    <a class="navbar-brand" href="index.html"><img alt="Flipside Tours Logo" src="http://206.189.45.97/~mesh22/sub4/wp-content/themes/flipside_tours_website/graphics/logo/logotype-img.svg"></a>
+                    <a class="navbar-brand" href="http://206.189.45.97/~mesh22/sub4/"><img alt="Flipside Tours Logo" src="http://206.189.45.97/~mesh22/sub4/wp-content/themes/flipside_tours_website/graphics/logo/logotype-img.svg"></a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="myNavbar">
